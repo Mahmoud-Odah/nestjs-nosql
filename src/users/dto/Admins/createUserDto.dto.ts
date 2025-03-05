@@ -16,5 +16,4 @@ export class CreateUserDto {
   age: number;
   @IsEnum(['admin', 'manager', 'user'])
   role: string;
-  
 }
